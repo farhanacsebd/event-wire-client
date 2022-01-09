@@ -10,7 +10,7 @@ const Footer = () => {
                         <div class="col-lg-6 offset-lg-3">
                             <div class="contact-content text-center">
 
-                                <p>We provide best event in various types of features and prices.</p>
+                                <p>We determined to offer the very best and one stop event solution and a beautiful event to remember.</p>
                                 <div class="hr"></div>
                                 <h6>Bangladesh</h6>
                                 <h6>+088 45345435435<span>||</span>+088 4534543534</h6>
@@ -21,7 +21,7 @@ const Footer = () => {
                                         <li><a class="hover-target" href=""><i class="fab fa-github"></i></a></li>
 
                                     </ul>
-                                    <h6>Copyright © 2021. All Rights Reserved by Farhana Binte Hasan.</h6>
+                                    <h6>Copyright © 2022. All Rights Reserved by Farhana Binte Hasan.</h6>
                                 </div>
                             </div>
                         </div>

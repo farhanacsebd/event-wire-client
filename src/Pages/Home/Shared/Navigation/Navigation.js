@@ -109,8 +109,8 @@ const Navigation = () => {
                         >
                             <MenuIcon />
                         </IconButton>
-                        <Typography className={navLogo} variant="h4" component="div" sx={{ flexGrow: 1 }}>
-                            <img style={{}} src="https://i.ibb.co/zbqmp2m/1536-removebg-preview.png" alt="" />
+                        <Typography className={navLogo} variant="h4" component="div" sx={{ flexGrow: 1, fontSize: '3rem', p: 2 }}>
+                            EVENT WIRE
                         </Typography>
 
 
@@ -121,7 +121,7 @@ const Navigation = () => {
                                 <Button color="inherit">Home</Button>
                             </NavLink>
                             <NavLink className={navItemContainer} style={{ textDecoration: 'none', color: 'white' }} to="/AllServices">
-                                <Button color="inherit">AllProducts</Button>
+                                <Button color="inherit">Our Services</Button>
                             </NavLink>
                             <NavLink className={navItemContainer} style={{ textDecoration: 'none', color: 'white' }} to="/dashboard">
                                 <Button color="inherit">Dashboard</Button>

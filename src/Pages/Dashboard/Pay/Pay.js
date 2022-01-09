@@ -4,7 +4,7 @@ const Pay = () => {
     return (
         <div>
             <h1>Our pyament services upcomming soon</h1>
-            <img style={{ width: "100%", height: "400px" }} src="https://sgp1.digitaloceanspaces.com/cosmosgroup-dc/news/7iqcYzq5l0Hy9UR2Cb328IDTmXyg0KGZlRHwhgQI.jpeg" />
+            <img style={{ width: "100%", height: "300px" }} src="https://i.pinimg.com/originals/f8/c4/22/f8c422a0a0e6793b3f9113d419c5143a.gif" />
         </div>
     );
 };

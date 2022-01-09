@@ -9,13 +9,13 @@ const ShowReview = ({ service }) => {
     // const {service} = props;
     const { _id, name, email, description, rating } = service;
     return (
-        <Card sx={{ display: 'flex', boxShadow: 2 }}>
+        <Card className="rating" sx={{ boxShadow: 2 }}>
             <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                 <CardContent sx={{ flex: '1 0 auto' }}>
-                    <Typography component="div" variant="h5">
+                    <Typography className='textColor' component="div" variant="h5">
                         {name}
                     </Typography>
-                    <Typography component="div" variant="h6">
+                    <Typography component="div" className='textColor' variant="h6">
                         {email}
                     </Typography>
                     <Rating
@@ -23,17 +23,13 @@ const ShowReview = ({ service }) => {
                         emptySymbol="far fa-star icon-color"
                         fullSymbol="fas fa-star icon-color"
                         readonly></Rating>
-                    <Typography variant="subtitle1" color="text.secondary" component="div">
+                    <Typography variant="subtitle1" component="div" className='textColor'>
                         {description}
                     </Typography>
                 </CardContent>
 
             </Box>
-            <CardMedia
-                component="img"
-                sx={{ width: 151 }}
-                image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhHC8OLmXfWf3LjJAB9fCYgK1tTJjg7AOhqg&usqp=CAU"
-            />
+
         </Card>
     );
 };

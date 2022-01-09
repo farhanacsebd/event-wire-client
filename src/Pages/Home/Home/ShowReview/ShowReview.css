@@ -1,3 +1,11 @@
 .icon-color{
-    color: goldenrod;
+    color: white;
+}
+.rating{
+    
+    /* background-image: linear-gradient(blue,cyan); */
+    background-image: linear-gradient(orange,tomato);
+}
+.textColor{
+    color: white;
 }

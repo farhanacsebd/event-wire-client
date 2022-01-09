@@ -91,7 +91,7 @@ function Dashboard(props) {
             <AppBar
                 position="fixed"
                 sx={{
-                    backgroundColor: "#6a1b9a",
+                    backgroundColor: "#515151",
                     width: { sm: `calc(100% - ${drawerWidth}px)` },
                     ml: { sm: `${drawerWidth}px` },
                 }}

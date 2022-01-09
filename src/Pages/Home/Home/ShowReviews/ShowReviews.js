@@ -14,11 +14,11 @@ const ShowReviews = () => {
 
     return (
         <Box sx={{ flexGrow: 1, mt: 5 }}>
-            <Typography sx variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            <Typography sx variant="h4" component="div" sx={{ flexGrow: 1, fontWeight: 'bold' }}>
                 What Our Customer Says
             </Typography>
 
-            <h1>Reviews</h1>
+
 
             <Container>
                 <Grid sx={{ flexGrow: 1, mb: 3, p: 2 }} container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
