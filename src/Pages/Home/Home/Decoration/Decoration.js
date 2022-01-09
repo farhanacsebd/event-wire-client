@@ -2,25 +2,57 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import './Decoration.css'
-import { Container } from '@mui/material';
+import { Container, Typography } from '@mui/material';
 const Decoration = () => {
 
     return (
 
         <Container>
             <Box sx={{ flexGrow: 1 }} style={{ paddingBottom: 30 }}>
-                <h1 style={{ marginTop: 50, marginBottom: 40 }}>Frequently Asked Question</h1>
+                <h1 style={{ marginTop: 50, marginBottom: 40 }}>Event Management</h1>
+                <Grid style={{ marginBottom: 50 }} container spacing={2} columns={{ xs: 4, sm: 8, md: 12 }}>
+                    <Grid item xs={4} sm={4} md={6}>
+                        <img style={{ width: "100%", height: "400px" }} src="https://cdn0.weddingwire.in/article/1886/original/1280/jpg/16881-indian-wedding-decorations-anoop-photography-indian-wedding-decorations-decorations-for-your-big-wedding-day.jpeg" alt="" />
+                    </Grid>
+                    <Grid item xs={4} sm={4} md={6}>
+
+                        <Typography>
+                            <img style={{ width: "75%", height: "200px" }} src="https://images.shaadisaga.com/shaadisaga_production/photos/pictures/000/655/034/new_large/shades3.jpg?1547020666" alt="" />
+                        </Typography>
+                        <Typography variant="h5" component="div">
+                            NEW ERA OF
+                            EVENT MANAGEMENT
+                        </Typography>
+                        <Typography>
+
+                            Creative Wedding Planner & Event Management established a new era in wedding planning and event management service in Bangladesh with quality and excellence.
+                        </Typography>
+
+
+
+
+
+
+                    </Grid>
+                </Grid>
+
+
+
                 <Grid style={{ marginBottom: 150 }} container spacing={2} columns={{ xs: 4, sm: 8, md: 12 }}>
+
                     <Grid item xs={4} sm={4} md={6}>
-                        <img style={{ width: "100%", height: "400px" }} src="https://www.india.com/wp-content/uploads/2017/10/diwali-lights.jpg" alt="" />
+                        <Typography variant="h5" component="div">
+                            Wedding Comes Once in a Lifetime. It’s an historic day in the lives of the bride and groom, which is why we are so passionate and dedicated to create an unforgettable experience for them.
+                        </Typography>
+                        <Typography>
+
+                            Make it Memorable
+                        </Typography>
                     </Grid>
                     <Grid item xs={4} sm={4} md={6}>
-                        <h3 class="start">Your peace of mind is our top priority</h3>
-                        <p class="start">Perfect for spicing-up your decor or creating a romantic setting.</p>
-                        <p class="start">These hanging, string lights or led wire lights make a great holiday decoration or perfect for Festival, Christmas, Wedding, Holiday and Party.</p>
-                        <p class="start">Blossom lights comes with multiple variations.</p>
-                        <p class="start">Can application Widely Used In Home Decoration, Outdoor And Indoor Project, Hotel, Office Building, Shopping Mall, Store, Pop, False Ceiling, Hotel & Restaurant ,Diwali Decoration.</p>
+                        <img style={{ width: "100%", height: "400px" }} src="https://i.pinimg.com/736x/5f/ab/7d/5fab7d37d20976bc17919302f4dcaf35.jpg" alt="" />
                     </Grid>
+
                 </Grid>
             </Box>
         </Container>
