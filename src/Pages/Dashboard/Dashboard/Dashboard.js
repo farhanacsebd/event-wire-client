@@ -70,7 +70,7 @@ function Dashboard(props) {
                 <Divider />
                 <Link to={`${url}/makeAdmin`} style={{ textDecoration: 'none', color: 'black' }} ><Button color="inherit">Make Admin</Button></Link>
                 <Divider />
-                <Link to={`${url}/addService`} style={{ textDecoration: 'none', color: 'black' }} ><Button color="inherit">AddService</Button></Link>
+                <Link to={`${url}/addService`} style={{ textDecoration: 'none', color: 'black' }} ><Button color="inherit">Add Service</Button></Link>
                 <Divider />
                 <Link to={`${url}/ManageAllOrder`} style={{ textDecoration: 'none', color: 'black' }} ><Button color="inherit">Manage All Orders</Button></Link>
                 <Link to={`${url}/ManageAllProduct`} style={{ textDecoration: 'none', color: 'black' }} ><Button color="inherit">Manage All Products</Button></Link>

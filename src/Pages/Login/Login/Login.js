@@ -68,9 +68,9 @@ const Login = () => {
             </form>}
             <br />
             <br />
-            {/* {!isLoading && <Button onClick={handleGoogleSignIn} sx={{ m: 1 }}
+            {!isLoading && <Button onClick={handleGoogleSignIn} sx={{ m: 1 }}
                 type="submit"
-                variant="contained">Google SignIn</Button>} <br /><br /> */}
+                variant="contained">Google SignIn</Button>} <br /><br />
             {
                 isLoading && <CircularProgress color="secondary" />
 
