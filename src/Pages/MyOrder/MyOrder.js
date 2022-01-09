@@ -10,7 +10,7 @@ const MyOrder = () => {
     // console.log(user.email);
 
     useEffect(() => {
-        fetch(`https://cryptic-castle-00111.herokuapp.com/buyer`)
+        fetch(`http://localhost:5000/buyer`)
             .then(res => res.json())
             .then(data => {
                 // console.log(data);
@@ -24,7 +24,7 @@ const MyOrder = () => {
 
         const proceed = window.confirm('Are you sure,You want to delete?')
         if (proceed) {
-            const url = `https://cryptic-castle-00111.herokuapp.com/buyer/${id}`;
+            const url = `http://localhost:5000/buyer/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

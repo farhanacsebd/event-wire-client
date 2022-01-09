@@ -5,7 +5,7 @@ const Banner = () => {
 
 
         <div class="backgroundImage">
-            <h2>hellow
+            <h2>
 
             </h2>
         </div>

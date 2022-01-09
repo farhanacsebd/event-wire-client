@@ -65,7 +65,7 @@ function Dashboard(props) {
 
 
 
-            {admin && <Box>
+            {!admin && <Box>
                 <Link to="/home" style={{ textDecoration: 'none', color: 'black' }} ><Button color="inherit">Home</Button></Link>
                 <Divider />
                 <Link to={`${url}/makeAdmin`} style={{ textDecoration: 'none', color: 'black' }} ><Button color="inherit">Make Admin</Button></Link>

@@ -7,7 +7,7 @@ import ShowReview from '../ShowReview/ShowReview';
 const ShowReviews = () => {
     const [services, setServices] = useState([])
     useEffect(() => {
-        fetch('https://cryptic-castle-00111.herokuapp.com/review')
+        fetch('http://localhost:5000/review')
             .then(res => res.json())
             .then(data => setServices(data));
     }, [])

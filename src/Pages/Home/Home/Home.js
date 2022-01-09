@@ -9,7 +9,7 @@ const Home = () => {
 
     const [services, setServices] = useState([])
     useEffect(() => {
-        fetch('https://cryptic-castle-00111.herokuapp.com/services')
+        fetch('http://localhost:5000/services')
             .then(res => res.json())
             .then(data => setServices(data.slice(0, 6)));
     }, [])

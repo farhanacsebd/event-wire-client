@@ -1,6 +1,6 @@
-# Project Name : Wander Lights
+# Project Name : Event Wire
 
-Project link - https://handicraft-react.web.app/
+Project link - 
 
 ## Technologies
 

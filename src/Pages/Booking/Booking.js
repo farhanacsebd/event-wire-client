@@ -19,7 +19,7 @@ const Booking = () => {
 
 
     useEffect(() => {
-        fetch(`https://cryptic-castle-00111.herokuapp.com/services/${serviceId}`)
+        fetch(`http://localhost:5000/services/${serviceId}`)
             .then(res => res.json())
             .then(data => setService(data))
     }, [])
@@ -35,7 +35,7 @@ const Booking = () => {
         const status = "Pending";
         const bookingItem = { ...data, status };
 
-        axios.post('https://cryptic-castle-00111.herokuapp.com/buyer', bookingItem)
+        axios.post('http://localhost:5000/buyer', bookingItem)
             .then(res => {
                 // console.log(res);
                 if (res.data.insertedId) {

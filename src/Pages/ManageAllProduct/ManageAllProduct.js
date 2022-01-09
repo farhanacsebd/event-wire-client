@@ -6,7 +6,7 @@ const ManageAllProduct = () => {
 
     const [services, setServices] = useState([])
     useEffect(() => {
-        fetch('https://cryptic-castle-00111.herokuapp.com/services')
+        fetch('http://localhost:5000/services')
             .then(res => res.json())
             .then(data => setServices(data));
     }, [])
@@ -17,7 +17,7 @@ const ManageAllProduct = () => {
 
         const proceed = window.confirm('Are you sure,You want to delete?')
         if (proceed) {
-            const url = `https://cryptic-castle-00111.herokuapp.com/services/${id}`;
+            const url = `http://localhost:5000/services/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })
