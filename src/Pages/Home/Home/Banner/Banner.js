@@ -3,15 +3,9 @@ import './Banner.css'
 const Banner = () => {
     return (
 
-
-        <div class="backgroundImage">
-            <h2>
-
-            </h2>
+        <div style={{}}>
+            <img style={{ width: "100%", height: "560px" }} src="https://mcdn.wallpapersafari.com/medium/78/94/MFjyUJ.jpg" />
         </div>
-        // <div style={{ marginBottom: 10 }}>
-        //     <img style={{ width: "100%", height: "400px" }} src="https://i.ibb.co/88y09GQ/198791-download-wallpaper-xmas-new-year-snow-snow-candle-winter.jpg" />
-        // </div>
     );
 };
 
