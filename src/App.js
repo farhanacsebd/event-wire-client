@@ -27,6 +27,7 @@ import ManageAllOrder from "./Pages/ManageAllOrder/ManageAllOrder";
 import ManageAllProduct from "./Pages/ManageAllProduct/ManageAllProduct";
 import MyOrder from "./Pages/MyOrder/MyOrder";
 import Notfound from "./Pages/NotFound/NotFound";
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
 
@@ -102,6 +103,8 @@ function App() {
               <Footer />
             </Router>
           </AuthProvider>
+          <ScrollToTop smooth component={<p style={{ color: "blue", paddingTop: "2px" }}> <i class="fas fa-arrow-up"></i> </p>} />
+
         </div> : <CircularProgress style={{ margin: '250px 50%' }} color="inherit" />
       }
     </div>
