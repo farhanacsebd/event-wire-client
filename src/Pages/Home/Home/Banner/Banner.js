@@ -4,7 +4,7 @@ const Banner = () => {
     return (
 
         <div style={{}}>
-            <img style={{ width: "100%", height: "560px" }} src="https://mcdn.wallpapersafari.com/medium/78/94/MFjyUJ.jpg" />
+            <img style={{ width: "100%", height: "560px" }} src="https://i2.wp.com/www.weddingsutra.com/wp-content/mussoorie-02.jpg?ssl=1" />
         </div>
     );
 };

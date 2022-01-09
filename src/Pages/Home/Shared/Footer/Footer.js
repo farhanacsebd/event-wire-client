@@ -10,7 +10,7 @@ const Footer = () => {
                         <div class="col-lg-6 offset-lg-3">
                             <div class="contact-content text-center">
 
-                                <p>We provide best decorating lights in various types of features and prices.</p>
+                                <p>We provide best event in various types of features and prices.</p>
                                 <div class="hr"></div>
                                 <h6>Bangladesh</h6>
                                 <h6>+088 45345435435<span>||</span>+088 4534543534</h6>

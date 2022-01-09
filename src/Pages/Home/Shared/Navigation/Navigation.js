@@ -96,7 +96,7 @@ const Navigation = () => {
     return (
         <>
             <Box sx={{ flexGrow: 1 }}>
-                <AppBar position="static" sx={{ backgroundColor: "#6a1b9a" }}>
+                <AppBar position="static" sx={{ backgroundColor: "#515151" }}>
                     <Toolbar>
                         <IconButton
                             size="large"
@@ -110,7 +110,7 @@ const Navigation = () => {
                             <MenuIcon />
                         </IconButton>
                         <Typography className={navLogo} variant="h4" component="div" sx={{ flexGrow: 1 }}>
-                            Event Wire
+                            <img style={{}} src="https://i.ibb.co/zbqmp2m/1536-removebg-preview.png" alt="" />
                         </Typography>
 
 

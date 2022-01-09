@@ -1,4 +1,5 @@
-import React from "react";
+import { CircularProgress } from "@mui/material";
+import React, { useEffect, useState } from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -28,69 +29,81 @@ import MyOrder from "./Pages/MyOrder/MyOrder";
 import Notfound from "./Pages/NotFound/NotFound";
 
 function App() {
+
+  const [services, setServices] = useState([])
+  useEffect(() => {
+    fetch('http://localhost:5000/services')
+      .then(res => res.json())
+      .then(data => setServices(data.slice(0, 6)));
+  }, [])
+
   return (
-    <div className="App">
-      <AuthProvider>
-        <Router>
-          <Navigation></Navigation>
-          <Switch> <Route exact path="/">
-            <Home />
-          </Route>
-            <Route path="/home">
-              <Home />
-            </Route>
-            <Route path="/Login">
-              <Login />
-            </Route>
-            <Route path="/Register">
-              <Register />
-            </Route>
-            <PrivateRoute path="/booking/:serviceId">
-              <Booking />
-            </PrivateRoute>
-            <Route path="/AllServices">
-              <AllServices></AllServices>
-            </Route>
-            <Route path="/Services">
-              <Services />
-            </Route>
-            <PrivateRoute path="/AddService">
-              <AddService />
-            </PrivateRoute>
+    <div>
+      {
+        services.length ? <div className="App">
+          <AuthProvider>
+            <Router>
+              <Navigation></Navigation>
+              <Switch> <Route exact path="/">
+                <Home />
+              </Route>
+                <Route path="/home">
+                  <Home />
+                </Route>
+                <Route path="/Login">
+                  <Login />
+                </Route>
+                <Route path="/Register">
+                  <Register />
+                </Route>
+                <PrivateRoute path="/booking/:serviceId">
+                  <Booking />
+                </PrivateRoute>
+                <Route path="/AllServices">
+                  <AllServices></AllServices>
+                </Route>
+                <Route path="/Services">
+                  <Services />
+                </Route>
+                <PrivateRoute path="/AddService">
+                  <AddService />
+                </PrivateRoute>
 
 
-            <PrivateRoute path="/review">
-              <Review></Review>
-            </PrivateRoute>
+                <PrivateRoute path="/review">
+                  <Review></Review>
+                </PrivateRoute>
 
-            <PrivateRoute path="/dashboard">
-              <Dashboard />
-            </PrivateRoute>
+                <PrivateRoute path="/dashboard">
+                  <Dashboard />
+                </PrivateRoute>
 
-            <PrivateRoute path="/Pay">
-              <Pay />
-            </PrivateRoute>
+                <PrivateRoute path="/Pay">
+                  <Pay />
+                </PrivateRoute>
 
-            <AdminRoute path="/ManageAllOrder">
-              <ManageAllOrder></ManageAllOrder>
-            </AdminRoute>
-            <AdminRoute path="/MyOrder">
-              <MyOrder></MyOrder>
-            </AdminRoute>
-            <AdminRoute path="/ManageAllProduct">
-              <ManageAllProduct />
-            </AdminRoute>
-            <AdminRoute path="/makeAdmin">
-              <MakeAdmin />
-            </AdminRoute>
+                <AdminRoute path="/ManageAllOrder">
+                  <ManageAllOrder></ManageAllOrder>
+                </AdminRoute>
+                <AdminRoute path="/MyOrder">
+                  <MyOrder></MyOrder>
+                </AdminRoute>
+                <AdminRoute path="/ManageAllProduct">
+                  <ManageAllProduct />
+                </AdminRoute>
+                <AdminRoute path="/makeAdmin">
+                  <MakeAdmin />
+                </AdminRoute>
 
-            <Route path="*">
-              <Notfound></Notfound>
-            </Route>
-          </Switch>
-          <Footer />
-        </Router>
-      </AuthProvider>
+                <Route path="*">
+                  <Notfound></Notfound>
+                </Route>
+              </Switch>
+              <Footer />
+            </Router>
+          </AuthProvider>
+        </div> : <CircularProgress style={{ margin: '250px 50%' }} color="inherit" />
+      }
     </div>
   );
 }

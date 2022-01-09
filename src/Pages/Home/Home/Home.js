@@ -7,25 +7,17 @@ import ShowReviews from './ShowReviews/ShowReviews';
 
 const Home = () => {
 
-    const [services, setServices] = useState([])
-    useEffect(() => {
-        fetch('http://localhost:5000/services')
-            .then(res => res.json())
-            .then(data => setServices(data.slice(0, 6)));
-    }, [])
 
     return (
-        <div>
-            {
-                services.length ? <div>
-                    <Banner />
-                    <Services></Services>
-                    <ShowReviews></ShowReviews>
-                    <Decoration></Decoration>
 
-                </div> : <CircularProgress color="secondary" />
-            }
+        <div>
+            <Banner />
+            <Services></Services>
+            <ShowReviews></ShowReviews>
+            <Decoration></Decoration>
+
         </div>
+
     );
 };
 
