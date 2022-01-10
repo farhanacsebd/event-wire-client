@@ -4,7 +4,7 @@ Project link - https://event-wire.web.app/home
 
 ## Technologies
 
-- React bootstrap
+- Meterial UI
 - React
 - Vanila css
 - React Route
