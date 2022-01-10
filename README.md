@@ -18,8 +18,7 @@ Project link - https://event-wire.web.app/home
 
 ### Features
 
-- You can get all kind of decorating light.
-- Free delivery
+- You can get all kind of event services.
 - Budget friendly
 - We provide discount.
 - We provide special service for our premium members.
