@@ -96,7 +96,7 @@ const Navigation = () => {
     return (
         <>
             <Box sx={{ flexGrow: 1 }}>
-                <AppBar position="static" sx={{ backgroundColor: "#515151" }}>
+                <AppBar position="static" sx={{ backgroundColor: "rgb(247 123 140)" }}>
                     <Toolbar>
                         <IconButton
                             size="large"
@@ -109,7 +109,7 @@ const Navigation = () => {
                         >
                             <MenuIcon />
                         </IconButton>
-                        <Typography className={navLogo} variant="h4" component="div" sx={{ flexGrow: 1, fontSize: '3rem', p: 2 }}>
+                        <Typography className={navLogo} variant="h4" component="div" sx={{ flexGrow: 1, fontSize: '2rem', p: 2, fontWeight: 'bold' }}>
                             EVENT WIRE
                         </Typography>
 
@@ -118,13 +118,13 @@ const Navigation = () => {
 
 
                             <NavLink className={navItemContainer} style={{ textDecoration: 'none', color: 'white' }} to="/home">
-                                <Button color="inherit">Home</Button>
+                                <Button sx={{ fontSize: '1rem' }} color="inherit">Home</Button>
                             </NavLink>
                             <NavLink className={navItemContainer} style={{ textDecoration: 'none', color: 'white' }} to="/AllServices">
-                                <Button color="inherit">Our Services</Button>
+                                <Button sx={{ fontSize: '1rem' }} color="inherit">Our Services</Button>
                             </NavLink>
                             <NavLink className={navItemContainer} style={{ textDecoration: 'none', color: 'white' }} to="/dashboard">
-                                <Button color="inherit">Dashboard</Button>
+                                <Button sx={{ fontSize: '1rem' }} color="inherit">Dashboard</Button>
                             </NavLink>
 
 
@@ -136,12 +136,12 @@ const Navigation = () => {
                                     <Typography className={navItemContainer}>
                                         {user?.displayName || 'no user'}
                                     </Typography>
-                                    <Button className={navItemContainer} onClick={logOut} color="inherit">LogOut</Button>
+                                    <Button className={navItemContainer} onClick={logOut} sx={{ fontSize: '1rem' }} color="inherit">LogOut</Button>
                                 </> :
                                     <>
 
                                         <NavLink className={navItemContainer} style={{ textDecoration: 'none', color: 'white' }} to="/login">
-                                            <Button color="inherit">Login</Button>
+                                            <Button sx={{ fontSize: '1rem' }} color="inherit">Login</Button>
                                         </NavLink> </>
                             }
 

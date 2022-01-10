@@ -1,7 +1,7 @@
 import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
-// import './Service.css';
+import './Service.css';
 import { Link } from 'react-router-dom';
 
 const Service = ({ service }) => {
@@ -9,7 +9,7 @@ const Service = ({ service }) => {
     const { _id, name, price, description, img } = service;
 
     return (
-        <Card sx={{ maxWidth: 345, boxShadow: 2, marginBottom: 10 }}>
+        <Card className="transform-cart" sx={{ maxWidth: 345, boxShadow: 2, marginBottom: 10 }}>
             <img style={{ height: "250px" }} src={img} />
             <Box sx={{ bgcolor: 'text.disabled', color: 'primary.main' }}>
                 <CardContent>

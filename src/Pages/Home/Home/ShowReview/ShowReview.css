@@ -9,3 +9,8 @@
 .textColor{
     color: white;
 }
+
+.review-transform:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}

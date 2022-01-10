@@ -14,7 +14,7 @@ const ShowReviews = () => {
 
     return (
         <Box sx={{ flexGrow: 1, mt: 5 }}>
-            <Typography sx variant="h4" component="div" sx={{ flexGrow: 1, fontWeight: 'bold' }}>
+            <Typography sx variant="h4" component="div" sx={{ flexGrow: 1, fontWeight: 'bold', marginBottom: "40px" }}>
                 What Our Customer Says
             </Typography>
 

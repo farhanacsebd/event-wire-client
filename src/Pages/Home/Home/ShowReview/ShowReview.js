@@ -9,7 +9,7 @@ const ShowReview = ({ service }) => {
     // const {service} = props;
     const { _id, name, email, description, rating } = service;
     return (
-        <Card className="rating" sx={{ boxShadow: 2 }}>
+        <Card className="review-transform rating" sx={{ boxShadow: 2 }}>
             <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                 <CardContent sx={{ flex: '1 0 auto' }}>
                     <Typography className='textColor' component="div" variant="h5">
