@@ -64,17 +64,19 @@ img {
 }
 
 .contact-social ul li a:hover {
-    border: 1px solid #FAB702;
-    color: #FAB702;
+    /* border: 1px solid #FAB702;
+    color: #FAB702; */
+    border: 1px solid #0265fa;
+    color: #0265fa;
 }
 
 
 section, footer {
-    background: #515151;
+    background: rgb(247 123 140);
     color: white;
 }
 section, footer:hover {
-    background: #515151;
+    background: rgb(247 123 140);
     color: white;
 
 }

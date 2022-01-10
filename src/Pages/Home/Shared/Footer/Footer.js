@@ -16,9 +16,9 @@ const Footer = () => {
                                 <h6>+088 45345435435<span>||</span>+088 4534543534</h6>
                                 <div class="contact-social">
                                     <ul>
-                                        <li><a class="hover-target" href=""><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a class="hover-target" href=""><i class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a class="hover-target" href=""><i class="fab fa-github"></i></a></li>
+                                        <li><a class="hover-target" href="https://www.facebook.com/farhana.web.bd/"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a class="hover-target" href="https://www.linkedin.com/in/farhanacsebd/"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a class="hover-target" href="https://github.com/farhanacsebd"><i class="fab fa-github"></i></a></li>
 
                                     </ul>
                                     <h6>Copyright © 2022. All Rights Reserved by Farhana Binte Hasan.</h6>
