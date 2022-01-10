@@ -1,6 +1,6 @@
 # Project Name : Event Wire
 
-Project link - 
+Project link - https://event-wire.web.app/home
 
 ## Technologies
 
