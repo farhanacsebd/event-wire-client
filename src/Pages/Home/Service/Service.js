@@ -21,12 +21,14 @@ const Service = ({ service }) => {
                     </Typography>
 
                     <Typography variant="p" color="text.secondary" sx={{ color: "black" }}>
-                        Price : ₹{price}tk
+                        Starting Cost : ₹{price}tk
                     </Typography>
                 </CardContent>
                 <CardActions>
                     <Link to={`/booking/${_id}`} style={{ padding: "3px", margin: "5px", textDecoration: "none" }}>
-                        <Button variant="contained">Buy Now</Button>
+                        <Button variant="outlined" color="error">
+                            Booking Now
+                        </Button>
                     </Link>
 
 
