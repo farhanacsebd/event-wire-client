@@ -4,9 +4,9 @@ Project link - https://event-wire.web.app/home
 
 ## Technologies
 
-- Meterial UI
+- Material UI
 - React
-- Vanila css
+- Vanilla css
 - React Route
 - React Hooks
 - Firebase
@@ -18,7 +18,7 @@ Project link - https://event-wire.web.app/home
 
 ### Features
 
-- You can get all kind of event services.
+- You can get all kinds of event services.
 - Budget friendly
 - We provide discount.
 - We provide special service for our premium members.
