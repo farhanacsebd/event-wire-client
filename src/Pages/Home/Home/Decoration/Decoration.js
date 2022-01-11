@@ -12,20 +12,20 @@ const Decoration = () => {
                 <h1 style={{ marginTop: 50, marginBottom: 40 }}>Event Management</h1>
                 <Grid style={{ marginBottom: 50 }} container spacing={2} columns={{ xs: 4, sm: 8, md: 12 }}>
                     <Grid item xs={4} sm={4} md={6}>
-                        <img style={{ width: "100%", height: "400px" }} src="https://cdn0.weddingwire.in/article/1886/original/1280/jpg/16881-indian-wedding-decorations-anoop-photography-indian-wedding-decorations-decorations-for-your-big-wedding-day.jpeg" alt="" />
+                        <img style={{ width: "100%", height: "400px" }} src="https://www.romantichomes.com/wp-content/uploads/2014/03/VillaSevillano_Wedding_2013_7.jpg" alt="" />
                     </Grid>
                     <Grid item xs={4} sm={4} md={6}>
 
                         <Typography>
-                            <img style={{ width: "75%", height: "200px" }} src="https://images.shaadisaga.com/shaadisaga_production/photos/pictures/000/655/034/new_large/shades3.jpg?1547020666" alt="" />
+                            <img style={{ width: "75%", height: "200px" }} src="https://i.pinimg.com/736x/9b/62/b0/9b62b01dda66404dccee6d2729d00d5f--nightime-wedding-wedding-wall-decorations.jpg" alt="" />
                         </Typography>
                         <Typography variant="h5" component="div">
-                            NEW ERA OF
+                            NEW ERA OF <br />
                             EVENT MANAGEMENT
                         </Typography>
                         <Typography>
 
-                            Creative Wedding Planner & Event Management established a new era in wedding planning and event management service in Bangladesh with quality and excellence.
+                            Creative Wedding Planner & Event Management established a new era <br /> in wedding planning and event management service <br /> in Bangladesh with quality and excellence.
                         </Typography>
 
 
@@ -42,7 +42,8 @@ const Decoration = () => {
 
                     <Grid item xs={4} sm={4} md={6}>
                         <Typography variant="h5" component="div">
-                            Wedding Comes Once in a Lifetime. It’s an historic day in the lives of the bride and groom, which is why we are so passionate and dedicated to create an unforgettable experience for them.
+                            <br /><br /><br />
+                            Wedding Comes Once in a Lifetime. It’s an historic <br /> day in the lives of the bride and groom,<br /> which is why we are so passionate and dedicated <br /> to create an unforgettable experience for them.
                         </Typography>
                         <Typography>
 
@@ -50,7 +51,7 @@ const Decoration = () => {
                         </Typography>
                     </Grid>
                     <Grid item xs={4} sm={4} md={6}>
-                        <img style={{ width: "100%", height: "400px" }} src="https://i.pinimg.com/736x/5f/ab/7d/5fab7d37d20976bc17919302f4dcaf35.jpg" alt="" />
+                        <img style={{ width: "100%", height: "400px" }} src="https://cosmopolitanevents.com.au/wp-content/uploads/2021/08/indian-wedding-venue-3.jpg" alt="" />
                     </Grid>
 
                 </Grid>
