@@ -36,7 +36,7 @@ function App() {
     fetch('https://vast-castle-84903.herokuapp.com/services')
       .then(res => res.json())
       .then(data => setServices(data.slice(0, 6)));
-  }, [])
+  }, [services])
 
   return (
     <div>
