@@ -21,7 +21,7 @@ const AllService = ({ service }) => {
                     </Typography>
 
                     <Typography variant="p" color="text.secondary" sx={{ color: "black" }}>
-                        Price : ₹{price}tk
+                        Starting Cost : ₹{price}tk
                     </Typography>
                 </CardContent>
                 <CardActions>
