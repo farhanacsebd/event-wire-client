@@ -9,7 +9,7 @@ const Decoration = () => {
 
         <Container>
             <Box sx={{ flexGrow: 1 }} style={{ paddingBottom: 30 }}>
-                <h1 style={{ marginTop: 50, marginBottom: 40 }}>Event Management</h1>
+                <h1 style={{ fontSize: "3rem", marginTop: 50, marginBottom: 80 }}>Event Management</h1>
                 <Grid style={{ marginBottom: 50 }} container spacing={2} columns={{ xs: 4, sm: 8, md: 12 }}>
                     <Grid item xs={4} sm={4} md={6}>
                         <img style={{ width: "100%", height: "400px" }} src="https://www.romantichomes.com/wp-content/uploads/2014/03/VillaSevillano_Wedding_2013_7.jpg" alt="" />

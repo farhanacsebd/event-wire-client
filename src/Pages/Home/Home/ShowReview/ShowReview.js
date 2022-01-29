@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Card, CardContent, Typography, CardActionArea } from '@mui/material';
 import Rating from 'react-rating';
 import './ShowReview.css';
@@ -7,7 +6,7 @@ import './ShowReview.css';
 const ShowReview = ({ service }) => {
     console.log(service);
     // const {service} = props;
-    const { _id, name, email, description, rating } = service;
+    const { name, email, description, rating } = service;
     return (
         <div data-aos="fade-up"
             data-aos-easing="ease-out-cubic"
