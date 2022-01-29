@@ -53,7 +53,7 @@ img {
 }
 
 .contact-social ul li a {
-    border: 1px solid #8b9199;
+    border: 2px solid #767a80;
     color: white;
     display: inline-block;
     height: 40px;
@@ -66,7 +66,7 @@ img {
 .contact-social ul li a:hover {
     /* border: 1px solid #FAB702;
     color: #FAB702; */
-    border: 1px solid #0265fa;
+    border: 2px solid #0265fa;
     color: #0265fa;
 }
 

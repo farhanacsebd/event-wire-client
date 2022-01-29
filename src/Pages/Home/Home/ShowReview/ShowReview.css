@@ -1,9 +1,9 @@
-.icon-color{
+/* .icon-color{
     color: white;
 }
 .rating{
     
-    /* background-image: linear-gradient(blue,cyan); */
+   
     background-image: linear-gradient(orange,tomato);
 }
 .textColor{
@@ -13,4 +13,8 @@
 .review-transform:hover{
     transform: scale(1.1);
     transition: 1s;
+} */
+
+.icon-color{
+    color: goldenrod;
 }

@@ -105,7 +105,7 @@ function App() {
           </AuthProvider>
           <ScrollToTop smooth component={<p style={{ color: "blue", paddingTop: "2px" }}> <i class="fas fa-arrow-up"></i> </p>} />
 
-        </div> : <CircularProgress style={{ margin: '250px 50%' }} color="inherit" />
+        </div> : <CircularProgress style={{ margin: '250px 630px' }} color="inherit" />
       }
     </div>
   );

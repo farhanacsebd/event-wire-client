@@ -1,0 +1,9 @@
+.bg-img{
+    background-image: url('https://i.pinimg.com/originals/d0/96/9a/d0969a384ce9c63043f893b2c8df55ca.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
