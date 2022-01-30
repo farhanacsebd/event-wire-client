@@ -13,23 +13,26 @@ const Services = () => {
     }, [services])
 
     return (
+
         <Box style={{ marginTop: 90 }} sx={{ flexGrow: 1 }}>
             <h1 style={{ fontSize: "3rem", marginBottom: "80px" }}>Our Featured Services</h1>
+            <div data-aos="fade-up">
+                <Container>
+                    <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
 
-            <Container>
-                <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+                        {
+                            services.map(service => <Grid item xs={4} sm={4} md={4} >
+                                <Service key={service.id}
+                                    service={service}></Service>
+                            </Grid>
+                            )
+                        }
 
-                    {
-                        services.map(service => <Grid item xs={4} sm={4} md={4} >
-                            <Service key={service.id}
-                                service={service}></Service>
-                        </Grid>
-                        )
-                    }
+                    </Grid>
+                </Container>
+            </div>
+        </Box >
 
-                </Grid>
-            </Container>
-        </Box>
     );
 };
 
